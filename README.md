@@ -7,7 +7,21 @@
 ## Overview
 The BeatlesBot is a functional tool designed to support the songwriting process by predicting chord progressions. Choosing effective chord progressions can be both a creative and technical challenge, as they establish mood, tension, and resolution in music. This tool assists songwriters by suggesting harmonically coherent chords based on prior context, helping to inspire new musical ideas. 
 
+<img width="878" height="339" alt="Screenshot 2026-03-03 164949" src="https://github.com/user-attachments/assets/9efe8885-e1f5-4790-bd45-feccc11e131f" />
+
+_We implemented 4 different models that might show 4 different suggestions_
+
 It is particularly targeted toward beginners and amateur musicians who are navigating the basics of music harmony and may lack the experience to instinctively generate harmonic progressions. Rather than functioning as an autonomous complete music generator, The BeatlesBot is designed to provide a rich palette of possible creative choices.
+
+<img width="861" height="442" alt="Screenshot 2026-03-03 165005" src="https://github.com/user-attachments/assets/3653be93-85e4-457f-b88f-9ef988f8cec4" />
+
+_First step is to insert the first two chords of the sequence as a relative chord to the root note of the song._
+
+<img width="1337" height="706" alt="Screenshot 2026-03-03 165049" src="https://github.com/user-attachments/assets/848e6ad0-c1c4-4b29-afb5-ad927562fd4c" />
+
+_The green chords are the 4 most likely suggestions from the models, clicking on the chosen suggestion will generate 4 new possible chords, advancing of one step._
+
+<img width="1335" height="695" alt="Screenshot 2026-03-03 165112" src="https://github.com/user-attachments/assets/94e0a9f9-dd69-4b4c-935f-5b7f5e1868d6" />
 
 ## Dataset and Preprocessing
 * The models are trained on a comprehensive dataset of chords spanning the entire Beatles discography (Harte 2010).
