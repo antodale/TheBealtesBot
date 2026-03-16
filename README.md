@@ -15,7 +15,8 @@ It is particularly targeted toward beginners and amateur musicians who are navig
 
 <img width="861" height="442" alt="Screenshot 2026-03-03 165005" src="https://github.com/user-attachments/assets/3653be93-85e4-457f-b88f-9ef988f8cec4" />
 
-_First step is to insert the first two chords of the sequence as a relative chord to the root note of the song._
+_First step is to insert the first two chords of the sequence as a relative chord to the root note of the song.
+Each chord is divided in Relative degree + color, witht this latter being the "attribute of the chord"_
 
 <img width="1337" height="706" alt="Screenshot 2026-03-03 165049" src="https://github.com/user-attachments/assets/848e6ad0-c1c4-4b29-afb5-ad927562fd4c" />
 
@@ -63,4 +64,4 @@ Various algorithms were explored and evaluated, including both unsupervised lear
 
 ## Future Work
 * Future iterations may explore the implementation of neural networks or higher-level HMMs.
-* There is potential to develop a solution that better integrates explicit music theory rules with learned evidence in a
+* There is potential to develop a solution that better integrates explicit music theory rules with learned evidence.
